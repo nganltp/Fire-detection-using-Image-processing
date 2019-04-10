@@ -1,0 +1,20 @@
+﻿Build started 10-Apr-19 4:27:45 PM.
+     1>Project "D:\work\EarlyFireDetection-master\EarlyFireDetection\EarlyFireDetection\EarlyFireDetection.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt motionDetection.cpp
+         motionDetection.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\EarlyFireDetection-master\EarlyFireDetection\Debug\EarlyFireDetection.exe" /INCREMENTAL /NOLOGO opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\work\EarlyFireDetection-master\EarlyFireDetection\Debug\EarlyFireDetection.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\EarlyFireDetection-master\EarlyFireDetection\Debug\EarlyFireDetection.lib" /MACHINE:X86 Debug\colorModel.obj
+         Debug\ds.obj
+         Debug\fileStream.obj
+         Debug\fireBehaviorAnalysis.obj
+         Debug\main.obj
+         Debug\motionDetection.obj
+         Debug\opticalFlowTool.obj
+         EarlyFireDetection.vcxproj -> D:\work\EarlyFireDetection-master\EarlyFireDetection\Debug\EarlyFireDetection.exe
+     1>Done Building Project "D:\work\EarlyFireDetection-master\EarlyFireDetection\EarlyFireDetection\EarlyFireDetection.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.26
